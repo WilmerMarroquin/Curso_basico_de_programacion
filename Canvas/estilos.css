@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(300deg, rgba(81, 255, 0, 0.7), rgba(255, 242, 0, 0.7), rgba(255, 0, 0, 0.7));
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+canvas {
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    border-color: rgb(255, 0, 234);
+    border-style: double;
+    margin: 1%;
+}
+
+#lineas {
+    background-color: aliceblue;
+    color: black;
+    width: 70px;
+}
+
+#grosor {
+    -webkit-appearance: none;
+    border-style: groove;
+    border-color: #ffffff;
+    border-radius: 5px;
+    background: #000000;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}

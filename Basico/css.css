@@ -1,0 +1,18 @@
+body {
+    background-color: #b3123f;
+    text-align: center;
+}
+
+div.container {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+
+    border-style: double;
+    border-color: aliceblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(300deg, rgba(81, 255, 0, 0.7), rgba(255, 242, 0, 0.7), rgba(255, 0, 0, 0.7));
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+canvas {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 200, 255);
+    border-style: double;
+    margin: 1%;
+}
+
+#lineas {
+    background-color: aliceblue;
+    color: black;
+    width: 70px;
+}

@@ -1,0 +1,111 @@
+#go {
+    background-color: rgba(255, 255, 255);
+    border-color: rgb(6, 6, 6);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#peso {
+    width: 100px;
+    background-color: rgba(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#planeta {
+    width: 150px;
+    background-color: rgba(10, 10, 10);
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+body {
+    background-image: url("blanco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+}
+
+.todo {
+    background: linear-gradient(130deg, rgba(35, 28, 28, 0.372), rgba(12, 10, 10, 0.256));
+    align-items: center;
+}
+
+.texto {
+    width: 100%;
+    color: rgba(7, 7, 7, 0);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-stroke: 3px rgba(6, 6, 6, 0.689) !important;
+    background-image: url("astro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: center;
+    -webkit-background-clip: text;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+
+td,
+th {
+    border: 1px solid rgb(5, 5, 5);
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(5, 5, 5, 0.378);
+}
+
+
+
+span {
+    background-color: rgba(8, 8, 8, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 5;
+}
+
+.result {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
